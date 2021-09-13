@@ -7,6 +7,7 @@ const Links = () => {
   return (
     <main className={styles.Links}>
       <div className={styles.container}>
+        <h1>Emilien Breton</h1>
         <Link
           icon="fas fa-envelope"
           href="mailto:bricktech2000@gmail.com"
@@ -17,7 +18,7 @@ const Links = () => {
         <Link
           icon="fab fa-github"
           href="https://github.com/Bricktech2000/"
-          color="#222"
+          color="#aaa"
         >
           Github
         </Link>
@@ -38,7 +39,7 @@ const Links = () => {
         <Link
           icon="fab fa-snapchat-ghost"
           href="https://www.snapchat.com/add/emilien_breton?share_id=09KhRyzndOk"
-          color="#DDDA00"
+          color="#CCC900"
         >
           Snapchat
         </Link>
