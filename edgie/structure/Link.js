@@ -9,8 +9,9 @@ const Link = (props) => {
       href={props.href}
       target="_blank"
       rel="noreferer"
+      style={{ background: props.color }}
     >
-      <i className={'fa-lg ' + props.icon}></i>
+      <i className={'fa-1x ' + props.icon}></i>
       {props.children}
     </a>
   );
