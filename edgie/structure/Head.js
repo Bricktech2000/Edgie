@@ -2,8 +2,8 @@ import React, { Component } from 'react';
 import NextHead from 'next/head';
 
 const Head = (props) => {
-  const title = 'Edgie';
-  const desc = 'Desc.';
+  const title = 'Emilien Breton';
+  const desc = 'Edgie - Links from Emilien Breton';
   const icon = 'favicon.png';
 
   return (
