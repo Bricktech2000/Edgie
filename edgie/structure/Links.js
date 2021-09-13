@@ -31,7 +31,7 @@ const Links = () => {
         </Link>
         <Link
           icon="fab fa-facebook-f"
-          href="https://github.com/Bricktech2000/"
+          href="https://www.facebook.com/emilien.breton.71"
           color="#4267B2"
         >
           Facebook
