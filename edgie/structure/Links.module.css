@@ -1,8 +1,13 @@
 .Links {
+  font-size: 0.85em;
   width: 100vw;
   height: 100vh;
   justify-content: center;
   align-items: center;
+
+  /* https://stackoverflow.com/questions/11679567/using-css-for-a-fade-in-effect-on-page-load */
+  animation: fadeIn 1s;
+  opacity: 1;
 }
 
 .container {
@@ -12,11 +17,20 @@
 }
 
 .container h1 {
-  font-size: 1.75em;
+  font-size: 2em;
   font-weight: 600;
   /* text-transform: uppercase; */
   color: var(--title);
   width: 100%;
   justify-content: center;
   margin-bottom: 1em;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
