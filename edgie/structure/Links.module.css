@@ -1,3 +1,12 @@
 .Links {
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
   flex-direction: column;
+  width: 100%;
+  max-width: 30ch;
 }

@@ -2,8 +2,10 @@
   text-decoration: none;
   color: var(--title);
   padding: 0.5em;
-  width: 100%;
+  margin: 0.35em;
+  width: calc(100% - 0.7em);
   background: var(--card2-bg);
+  padding-left: 9ch;
 }
 
 .Link i {
