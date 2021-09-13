@@ -4,7 +4,12 @@ import styles from './Link.module.css';
 
 const Link = (props) => {
   return (
-    <a className={styles.Link} href={props.href}>
+    <a
+      className={styles.Link}
+      href={props.href}
+      target="_blank"
+      rel="noreferer"
+    >
       <i className={'fa-lg ' + props.icon}></i>
       {props.children}
     </a>
