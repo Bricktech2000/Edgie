@@ -9,6 +9,13 @@ const Links = () => {
       <div className={styles.container}>
         <h1>Emilien Breton</h1>
         <Link
+          icon="fas fa-external-link-square-alt"
+          href="https://emilien.ca/"
+          color="#1720df"
+        >
+          Website
+        </Link>
+        <Link
           icon="fas fa-envelope"
           href="mailto:bricktech2000@gmail.com"
           color="#bb001b"
