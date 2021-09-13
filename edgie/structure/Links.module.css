@@ -12,7 +12,9 @@
 }
 
 .container h1 {
-  font-size: 2em;
+  font-size: 1.75em;
+  font-weight: 600;
+  /* text-transform: uppercase; */
   color: var(--title);
   width: 100%;
   justify-content: center;
