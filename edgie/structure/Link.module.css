@@ -1,4 +1,12 @@
 .Link {
   text-decoration: none;
   color: var(--text);
+  padding: 0.5em;
+}
+
+.Link i {
+  display: flex;
+  width: 2em;
+  justify-content: center;
+  align-items: center;
 }
