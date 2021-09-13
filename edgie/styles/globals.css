@@ -1,16 +1,45 @@
-html,
-body {
+/*https://www.w3schools.com/css/css3_variables.asp*/
+:root {
+  --black: #000;
+  --bg: #111111;
+  --card-bg: #28282b;
+  --card2-bg: #444448;
+
+  --text: #aaa;
+  --title: #fff;
+
+  --bs: 0 0 0.5em var(--black);
+
+  --sans: Roboto, sans-serif;
+  --mono: Inconsolata, monospace;
+}
+* {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-}
-
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
-* {
   box-sizing: border-box;
+  /*https://stackoverflow.com/questions/11289166/chrome-on-android-resizes-font*/
+  max-height: 999999999px;
+  -webkit-tap-highlight-color: transparent;
+}
+html {
+  scroll-behavior: smooth;
+}
+html *:not(head *):not(script):not(style) {
+  /* https://www.youtube.com/watch?v=bngsrbFI2UY&t=120s */
+  display: flex;
+}
+body {
+  width: 100%;
+  overflow-x: hidden;
+  /*https://www.hostinger.com/tutorials/best-html-web-fonts*/
+  font-family: var(--sans);
+  font-size: clamp(
+    calc(calc(100vh + 100vw) / 125),
+    1.75rem,
+    calc(calc(100vh + 100vw) / 50)
+  );
+  font-weight: 300;
+  line-height: 1.6;
+  color: var(--text);
+  background: var(--bg);
 }
