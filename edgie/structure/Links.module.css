@@ -10,3 +10,11 @@
   width: 100%;
   max-width: 30ch;
 }
+
+.container h1 {
+  font-size: 2em;
+  color: var(--title);
+  width: 100%;
+  justify-content: center;
+  margin-bottom: 1em;
+}

@@ -4,8 +4,11 @@
   padding: 0.5em;
   margin: 0.35em;
   width: calc(100% - 0.7em);
-  background: var(--card2-bg);
-  padding-left: 9ch;
+  border: 0.166em solid var(--card2-bg);
+  padding-left: 8ch;
+  position: relative;
+
+  transition: padding-left 0.2s ease-in-out;
 }
 
 .Link i {
@@ -13,4 +16,23 @@
   width: 2em;
   justify-content: center;
   align-items: center;
+}
+
+.Link:hover {
+  padding-left: 7.5ch;
+  /* filter: hue-rotate(-10deg); */
+}
+
+.Link .LinkBefore {
+  position: absolute;
+  bottom: -1px;
+  left: 100%;
+  right: -1px;
+  top: -1px;
+  z-index: -1;
+  transition: left 0.1s ease-out;
+}
+
+.Link:hover .LinkBefore {
+  left: -1px;
 }
