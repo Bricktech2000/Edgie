@@ -4,7 +4,7 @@ import NextHead from 'next/head';
 const Head = (props) => {
   const title = 'Emilien Breton';
   const desc = 'Edgie - Links from Emilien Breton';
-  const icon = 'favicon.png';
+  const icon = 'icon.png';
 
   return (
     <NextHead>
@@ -20,8 +20,8 @@ const Head = (props) => {
       <meta name="description" content={'Desc.'} />
       <meta name="theme-color" content="#000000" />
       {/* https://stackoverflow.com/questions/2208933/how-do-i-force-a-favicon-refresh */}
-      <link rel="shortcut icon" href="/icon.png?v=4" />
-      <link rel="apple-touch-icon" href="/icon.png?v=4" />
+      <link rel="shortcut icon" href={'/' + icon + '?v=4'} />
+      <link rel="apple-touch-icon" href={'/' + icon + '?v=4'} />
       {/* https://fonts.google.com/specimen/Roboto?category=Sans+Serif */}
       <link rel="preconnect" href="https://fonts.googleapis.com" />
       <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
