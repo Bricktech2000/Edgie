@@ -4,7 +4,7 @@
   padding: 0.5em;
   margin: 0.35em;
   width: calc(100% - 0.7em);
-  border: 0.166em solid var(--card2-bg);
+  border: 0.166em solid var(--title);
   padding-left: 7.5ch;
   position: relative;
 

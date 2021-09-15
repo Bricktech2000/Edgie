@@ -1,14 +1,9 @@
 /*https://www.w3schools.com/css/css3_variables.asp*/
 :root {
-  --black: #000;
   --bg: #111111;
-  --card-bg: #28282b;
-  --card2-bg: #444448;
 
   --text: #aaa;
   --title: #fff;
-
-  --bs: 0 0 0.5em var(--black);
 
   --sans: Roboto, sans-serif;
   --mono: Inconsolata, monospace;
@@ -30,7 +25,6 @@ html *:not(head *):not(script):not(style) {
 }
 body {
   width: 100%;
-  overflow-x: hidden;
   /*https://www.hostinger.com/tutorials/best-html-web-fonts*/
   font-family: var(--sans);
   font-size: clamp(
