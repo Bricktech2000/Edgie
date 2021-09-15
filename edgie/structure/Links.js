@@ -50,6 +50,13 @@ const Links = () => {
         >
           Snapchat
         </Link>
+        <Link
+          icon="fab fa-instagram"
+          href="https://www.instagram.com/emilien.breton.71/"
+          color="linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%)"
+        >
+          Instagram
+        </Link>
       </div>
     </main>
   );
