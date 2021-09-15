@@ -11,21 +11,21 @@ const Links = () => {
         <Link
           icon="fas fa-external-link-square-alt"
           href="https://emilien.ca/"
-          color="#1720df"
+          color="#1720DF"
         >
           Website
         </Link>
         <Link
           icon="fas fa-envelope"
           href="mailto:bricktech2000@gmail.com"
-          color="#bb001b"
+          color="linear-gradient(45deg, #BB001B, #EA4335)"
         >
           Mail
         </Link>
         <Link
           icon="fab fa-github"
           href="https://github.com/Bricktech2000/"
-          color="#aaa"
+          color="#BBBBBB"
         >
           Github
         </Link>
