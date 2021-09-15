@@ -9,11 +9,11 @@ const Link = (props) => {
       href={props.href}
       target="_blank"
       rel="noreferer"
-      style={{ borderColor: props.color }}
+      style={{ borderColor: props.color, borderImage: props.color }}
     >
       <div
         className={styles.LinkBefore}
-        style={{ backgroundColor: props.color }}
+        style={{ backgroundColor: props.color, backgroundImage: props.color }}
       ></div>
       <i className={'fa-1x ' + props.icon}></i>
       {props.children}

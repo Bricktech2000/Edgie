@@ -7,6 +7,10 @@
   border: 0.166em solid var(--title);
   padding-left: 7.5ch;
   position: relative;
+  /* https://developer.mozilla.org/en-US/docs/Web/CSS/gradient/linear-gradient() */
+  /* https://www.google.com/search?q=css+instagram+gradient&oq=css+instagram+gradient&aqs=edge.0.0i512j0i22i30l2.3228j0j1&sourceid=chrome&ie=UTF-8 */
+  /* https://stackoverflow.com/questions/40900796/css-border-image-gradient-not-working-in-safari-10 */
+  border-image-slice: 2 !important;
 
   transition: padding-left 0.2s ease-in-out;
 }
