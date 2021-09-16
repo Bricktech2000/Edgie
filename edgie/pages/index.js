@@ -2,8 +2,6 @@ import React, { Component } from 'react';
 import Head from '../structure/Head';
 import Main from '../structure/Main';
 
-import styles from '../styles/Home.module.css';
-
 const Home = () => {
   return (
     <React.Fragment>
