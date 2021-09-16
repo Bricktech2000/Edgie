@@ -17,11 +17,7 @@ const Head = (props) => {
       <meta property="og:description" content={desc} />
       <meta property="og:image" content={icon} />
       <title>{title}</title>
-      <meta name="description" content={'Desc.'} />
-      <meta name="theme-color" content="#000000" />
-      {/* https://stackoverflow.com/questions/2208933/how-do-i-force-a-favicon-refresh */}
-      <link rel="shortcut icon" href={'/' + icon + '?v=4'} />
-      <link rel="apple-touch-icon" href={'/' + icon + '?v=4'} />
+      <meta name="description" content={desc} />
       {/* https://fonts.google.com/specimen/Roboto?category=Sans+Serif */}
       <link rel="preconnect" href="https://fonts.googleapis.com" />
       <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
