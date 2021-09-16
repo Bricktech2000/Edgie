@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import Link from '../structure/Link';
+import Link from './Link';
 
-import styles from './Links.module.css';
+import styles from './Main.module.css';
 
 const Links = () => {
   return (

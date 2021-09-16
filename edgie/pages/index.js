@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Head from '../structure/Head';
-import Links from '../structure/Links';
+import Main from '../structure/Main';
 
 import styles from '../styles/Home.module.css';
 
@@ -8,7 +8,7 @@ const Home = () => {
   return (
     <React.Fragment>
       <Head></Head>
-      <Links></Links>
+      <Main></Main>
     </React.Fragment>
   );
 };
