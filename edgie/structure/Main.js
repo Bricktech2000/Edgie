@@ -16,13 +16,6 @@ const Links = () => {
           Website
         </Link>
         <Link
-          icon="fas fa-envelope"
-          href="mailto:bricktech2000@gmail.com"
-          color="linear-gradient(45deg, #BB001B, #EA4335)"
-        >
-          Mail
-        </Link>
-        <Link
           icon="fab fa-github"
           href="https://github.com/Bricktech2000/"
           color="#BBBBBB"
@@ -35,6 +28,13 @@ const Links = () => {
           color="#0077C2"
         >
           LinkedIn
+        </Link>
+        <Link
+          icon="fas fa-envelope"
+          href="mailto:bricktech2000@gmail.com"
+          color="linear-gradient(45deg, #BB001B, #EA4335)"
+        >
+          Mail
         </Link>
         <Link
           icon="fab fa-facebook-f"
