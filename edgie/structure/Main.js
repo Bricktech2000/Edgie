@@ -24,7 +24,7 @@ const Links = () => {
         </Link>
         <Link
           icon="fab fa-linkedin"
-          href="https://www.instagram.com/emilien.breton.71/"
+          href="https://www.linkedin.com/in/emilien-breton/"
           color="#0077C2"
         >
           LinkedIn
