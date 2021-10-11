@@ -30,6 +30,13 @@ const Links = () => {
           Github
         </Link>
         <Link
+          icon="fab fa-linkedin"
+          href="https://www.instagram.com/emilien.breton.71/"
+          color="#0077C2"
+        >
+          LinkedIn
+        </Link>
+        <Link
           icon="fab fa-facebook-f"
           href="https://www.facebook.com/emilien.breton.71"
           color="#4267B2"
