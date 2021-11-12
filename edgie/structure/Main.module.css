@@ -30,10 +30,20 @@
   justify-content: center;
   margin-bottom: 0.5em;
 }
+.Links p {
+  width: 60ch;
+  max-width: 100%;
+  margin-bottom: 1em;
+  justify-content: center;
+  text-align: center;
+}
 
 @media (max-aspect-ratio: 1/1) {
   .column {
     flex-direction: column;
+  }
+  .Links p {
+    width: 30ch;
   }
 }
 

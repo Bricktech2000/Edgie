@@ -7,6 +7,14 @@ const Links = () => {
   return (
     <main className={styles.Links}>
       <h1>Emilien Breton</h1>
+      <p>Computer Science Student at the University of Ottawa</p>
+      {/* .howto
+        github
+        README.md
+        linkedin
+        facebook
+        instagram
+      */}
       <div className={styles.column}>
         <div className={styles.row}>
           <Link
