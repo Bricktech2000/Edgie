@@ -2,7 +2,7 @@
   text-decoration: none;
   color: var(--title);
   padding: 0.5em;
-  margin: 0.35em;
+  margin: 0.5em;
   width: calc(100% - 0.7em);
   border: 0.166em solid var(--title);
   padding-left: 7.5ch;
