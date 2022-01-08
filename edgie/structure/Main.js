@@ -28,6 +28,7 @@ const Links = () => {
             icon="fab fa-github"
             href="https://github.com/Bricktech2000/"
             color="#BBBBBB"
+            invert
           >
             Github
           </Link>
@@ -64,7 +65,8 @@ const Links = () => {
           <Link
             icon="fab fa-snapchat-ghost"
             href="https://www.snapchat.com/add/emilien_breton?share_id=09KhRyzndOk"
-            color="#CCC900"
+            color="#FFFC00"
+            invert
           >
             Snapchat
           </Link>

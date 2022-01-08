@@ -5,7 +5,7 @@ import styles from './Link.module.css';
 const Link = (props) => {
   return (
     <a
-      className={styles.Link}
+      className={`${styles.Link} ${props.invert ? styles.invert : ''}`}
       href={props.href}
       target="_blank"
       rel="noreferer"

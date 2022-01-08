@@ -12,7 +12,7 @@
   /* https://stackoverflow.com/questions/40900796/css-border-image-gradient-not-working-in-safari-10 */
   border-image-slice: 2 !important;
 
-  transition: padding-left 0.2s ease-in-out;
+  transition: padding-left 0.2s ease-in-out, color 0.1s ease-in-out;
 }
 
 .Link i {
@@ -25,6 +25,9 @@
 .Link:hover {
   padding-left: 7ch;
   /* filter: hue-rotate(-10deg); */
+}
+.Link.invert:hover {
+  color: var(--title-dark);
 }
 
 .Link .LinkBefore {
