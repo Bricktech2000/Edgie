@@ -1,8 +1,8 @@
-.Links {
+.Main {
   flex-direction: column;
   font-size: 0.85em;
   width: 100vw;
-  height: 100vh;
+  min-height: 100vh;
   justify-content: center;
   align-items: center;
 
@@ -21,16 +21,16 @@
   flex: 1;
 }
 
-.Links h1 {
+.Main h1 {
   font-size: 2em;
   font-weight: 600;
   /* text-transform: uppercase; */
   color: var(--title);
   width: 100%;
   justify-content: center;
-  margin-bottom: 0.5em;
+  margin: 0.5em 0;
 }
-.Links p {
+.Main p {
   width: 60ch;
   max-width: 100%;
   margin-bottom: 1em;
@@ -42,7 +42,7 @@
   .column {
     flex-direction: column;
   }
-  .Links p {
+  .Main p {
     width: 30ch;
   }
 }

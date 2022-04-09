@@ -5,7 +5,7 @@ import styles from './Main.module.css';
 
 const Links = () => {
   return (
-    <main className={styles.Links}>
+    <main className={styles.Main}>
       <h1>Emilien Breton</h1>
       <p>Computer Science Student at the University of Ottawa</p>
       {/* .howto
@@ -14,6 +14,7 @@ const Links = () => {
         linkedin
         facebook
         instagram
+        email signature: gmail, outlook
       */}
       <div className={styles.column}>
         <div className={styles.row}>
@@ -24,14 +25,7 @@ const Links = () => {
           >
             Website
           </Link>
-          <Link
-            icon="fab fa-github"
-            href="https://github.com/Bricktech2000/"
-            color="#BBBBBB"
-            invert
-          >
-            Github
-          </Link>
+
           <Link
             icon="fab fa-linkedin"
             href="https://www.linkedin.com/in/emilien-breton/"
@@ -46,14 +40,37 @@ const Links = () => {
           >
             Mail
           </Link>
+          <Link
+            icon="fab fa-telegram"
+            href="https://t.me/emilien_breton"
+            color="#0088CC"
+          >
+            Telegram
+          </Link>
+          <Link
+            icon="fab fa-whatsapp"
+            href="http://wasap.my/16139139909"
+            color="#25D366"
+            invert
+          >
+            Whatsapp
+          </Link>
         </div>
         <div className={styles.row}>
           <Link
-            icon="fab fa-facebook-f"
-            href="https://www.facebook.com/emilien.breton.71"
-            color="#4267B2"
+            icon="fab fa-github"
+            href="https://github.com/Bricktech2000/"
+            color="#BBBBBB"
+            invert
           >
-            Facebook
+            Github
+          </Link>
+          <Link
+            icon="fab fa-facebook-messenger"
+            href="https://www.messenger.com/t/100038113148924"
+            color="#0078FF"
+          >
+            Messenger
           </Link>
           <Link
             icon="fab fa-discord"

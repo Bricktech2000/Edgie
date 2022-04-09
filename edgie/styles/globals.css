@@ -26,6 +26,7 @@ html *:not(head *):not(script):not(style) {
 }
 body {
   width: 100%;
+  overflow-x: hidden;
   /*https://www.hostinger.com/tutorials/best-html-web-fonts*/
   font-family: var(--sans);
   font-size: clamp(min(2vh, 4vw), 1.75rem, min(3vh, 6vw));
