@@ -3,10 +3,13 @@ import Link from './Link';
 
 import styles from './Main.module.css';
 
-const Links = () => {
+const Main = () => {
   return (
     <main className={styles.Main}>
-      <h1>Emilien Breton</h1>
+      <div className={styles.headingContainer}>
+        <img src="picture.png" alt="author profile picture" />
+        <h1>Emilien Breton</h1>
+      </div>
       <p>Computer Science Student at the University of Ottawa</p>
       {/* .howto
         github
@@ -96,8 +99,17 @@ const Links = () => {
           </Link>
         </div>
       </div>
+      <a
+        className={styles.qrLink}
+        href="qr.png"
+        target="_blank"
+        rel="noreferer"
+      >
+        <i className={'fa-1x fas fa-qrcode'}></i>
+        QR Code Link
+      </a>
     </main>
   );
 };
 
-export default Links;
+export default Main;

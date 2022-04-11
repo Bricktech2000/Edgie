@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import NextHead from 'next/head';
 
-const Head = (props) => {
+const Head = () => {
   const title = 'Emilien Breton';
   const desc = 'Edgie - Links from Emilien Breton';
   const icon = 'icon.png';
@@ -18,6 +18,7 @@ const Head = (props) => {
       <meta property="og:image" content={icon} />
       <title>{title}</title>
       <meta name="description" content={desc} />
+      <link rel="shortcut icon" href={`https://edgie.emilien.ca/${icon}`} />
       {/* https://fonts.google.com/specimen/Roboto?category=Sans+Serif */}
       <link rel="preconnect" href="https://fonts.googleapis.com" />
       <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />

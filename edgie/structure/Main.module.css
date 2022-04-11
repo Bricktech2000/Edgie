@@ -5,6 +5,8 @@
   min-height: 100vh;
   justify-content: center;
   align-items: center;
+  padding: 2em 0;
+  gap: 1em;
 
   /* https://stackoverflow.com/questions/11679567/using-css-for-a-fade-in-effect-on-page-load */
   animation: fadeIn 1s;
@@ -21,21 +23,40 @@
   flex: 1;
 }
 
-.Main h1 {
+.Main .headingContainer {
+  align-items: center;
+  justify-content: center;
+  gap: 1em;
+}
+.Main .headingContainer h1 {
   font-size: 2em;
   font-weight: 600;
   /* text-transform: uppercase; */
   color: var(--title);
   width: 100%;
-  justify-content: center;
-  margin: 0.5em 0;
 }
 .Main p {
   width: 60ch;
   max-width: 100%;
-  margin-bottom: 1em;
-  justify-content: center;
   text-align: center;
+  justify-content: center;
+}
+.Main img {
+  width: 2.5em;
+  border-radius: 100%;
+  box-shadow: var(--bs);
+}
+
+.Main .qrLink {
+  text-decoration: none;
+  color: var(--text);
+  align-items: center;
+  gap: 1ch;
+
+  transition: padding-left 0.2s ease-in-out, color 0.1s ease-in-out;
+}
+.Main .qrLink:hover {
+  color: var(--title);
 }
 
 @media (max-aspect-ratio: 1/1) {
@@ -44,6 +65,9 @@
   }
   .Main p {
     width: 30ch;
+  }
+  .Main .headingContainer {
+    flex-direction: column;
   }
 }
 

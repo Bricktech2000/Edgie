@@ -5,9 +5,11 @@
   --text: #aaa;
   --title: #fff;
   --title-dark: #222;
+  --black: #000;
 
   --sans: Roboto, sans-serif;
   --mono: Inconsolata, monospace;
+  --bs: 0 0 0.5em var(--black);
 }
 * {
   padding: 0;

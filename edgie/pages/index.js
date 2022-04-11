@@ -5,8 +5,8 @@ import Main from '../structure/Main';
 const Home = () => {
   return (
     <React.Fragment>
-      <Head></Head>
-      <Main></Main>
+      <Head />
+      <Main />
     </React.Fragment>
   );
 };
