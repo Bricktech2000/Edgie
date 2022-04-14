@@ -15,7 +15,7 @@ const Head = () => {
       />
       <meta property="og:title" content={title} />
       <meta property="og:description" content={desc} />
-      <meta property="og:image" content={icon} />
+      <meta property="og:image" content={`https://edgie.emilien.ca/${icon}`} />
       <title>{title}</title>
       <meta name="description" content={desc} />
       <link rel="shortcut icon" href={`https://edgie.emilien.ca/${icon}`} />
