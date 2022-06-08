@@ -24,7 +24,7 @@ const Main = () => {
           <Link
             icon="fas fa-external-link-square-alt"
             href="https://emilien.ca/"
-            color="#1720DF"
+            color="hsl(216, 75%, 50%)"
           >
             Website
           </Link>
@@ -78,7 +78,7 @@ const Main = () => {
           <Link
             icon="fab fa-discord"
             href="https://discord.gg/372eVaqtv5"
-            color="#7289da"
+            color="#5865F2"
           >
             Discord
           </Link>
