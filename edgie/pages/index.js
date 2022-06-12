@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import Head from '../structure/Head';
-import Main from '../structure/Main';
+import Head from '../components/Head';
+import Main from '../components/Main';
 
 const Home = () => {
   return (
