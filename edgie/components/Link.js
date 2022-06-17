@@ -8,7 +8,7 @@ const Link = (props) => {
       className={`${styles.Link} ${props.invert ? styles.invert : ''}`}
       href={props.href}
       target="_blank"
-      rel="noreferer"
+      rel="noreferrer"
       style={{ borderColor: props.color, borderImage: props.color }}
     >
       <div
