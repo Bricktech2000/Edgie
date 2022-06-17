@@ -11,14 +11,6 @@ const Main = () => {
         <h1>Emilien Breton</h1>
       </div>
       <p>Computer Science Student at the University of Ottawa</p>
-      {/* .howto
-        github
-        README.md
-        linkedin
-        facebook
-        instagram
-        email signature: gmail, outlook
-      */}
       <div className={styles.column}>
         <div className={styles.row}>
           <Link
