@@ -1,10 +1,15 @@
-import React, { Component } from 'react';
+import React, { Component, useEffect } from 'react';
 import NextHead from 'next/head';
 
 const Head = () => {
   const title = 'Emilien Breton - Edgie Links';
   const desc = 'Click here to view my socials and to contact me.';
   const icon = 'icon.png';
+  const language = 'en';
+
+  useEffect(() => {
+    document.documentElement.lang = language;
+  }, []);
 
   return (
     <NextHead>
