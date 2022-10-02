@@ -42,14 +42,14 @@ const Main = () => {
           >
             Telegram
           </Link>
-          <Link
+          {/* <Link
             icon="fab fa-whatsapp"
             href="http://wasap.my/16139139909"
             color="#25D366"
             invert
           >
             Whatsapp
-          </Link>
+          </Link> */}
         </div>
         <div className={styles.row}>
           <Link
@@ -74,14 +74,14 @@ const Main = () => {
           >
             Discord
           </Link>
-          <Link
+          {/* <Link
             icon="fab fa-snapchat-ghost"
             href="https://www.snapchat.com/add/emilien_breton?share_id=09KhRyzndOk"
             color="#FFFC00"
             invert
           >
             Snapchat
-          </Link>
+          </Link> */}
           <Link
             icon="fab fa-instagram"
             href="https://www.instagram.com/emilien.breton.71/"
