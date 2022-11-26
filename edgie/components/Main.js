@@ -14,11 +14,18 @@ const Main = () => {
       <div className={styles.column}>
         <div className={styles.row}>
           <Link
-            icon="fas fa-external-link-square-alt"
+            icon="fas fa-link"
             href="https://emilien.ca/"
             color="hsl(216, 75%, 50%)"
           >
             Website
+          </Link>
+          <Link
+            icon="fas fa-book"
+            href="https://notes.emilien.ca/"
+            color="#888"
+          >
+            Notes
           </Link>
 
           <Link
@@ -42,14 +49,6 @@ const Main = () => {
           >
             Telegram
           </Link>
-          {/* <Link
-            icon="fab fa-whatsapp"
-            href="http://wasap.my/16139139909"
-            color="#25D366"
-            invert
-          >
-            Whatsapp
-          </Link> */}
         </div>
         <div className={styles.row}>
           <Link
@@ -82,6 +81,14 @@ const Main = () => {
           >
             Snapchat
           </Link> */}
+          <Link
+            icon="fab fa-whatsapp"
+            href="http://wasap.my/16139139909"
+            color="#25D366"
+            invert
+          >
+            Whatsapp
+          </Link>
           <Link
             icon="fab fa-instagram"
             href="https://www.instagram.com/emilien.breton.71/"
