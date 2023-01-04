@@ -13,13 +13,18 @@
   opacity: 1;
 }
 
-.column {
-  flex-direction: row;
-}
-.column .row {
+.rows {
   flex-direction: column;
-  width: 30ch;
+  gap: 1em;
+}
+.rows .row {
+  flex-direction: row;
+  width: 60ch;
   max-width: 100%;
+  flex: 1;
+  gap: 1em;
+}
+.rows .row > * {
   flex: 1;
 }
 
@@ -60,8 +65,9 @@
 }
 
 @media (max-aspect-ratio: 1/1) {
-  .column {
+  .rows .row {
     flex-direction: column;
+    width: 30ch;
   }
   .Main p {
     width: 30ch;

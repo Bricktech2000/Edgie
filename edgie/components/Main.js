@@ -7,11 +7,11 @@ const Main = () => {
   return (
     <main className={styles.Main}>
       <div className={styles.headingContainer}>
-        <img src="picture.png" alt="author profile picture" />
+        <img src="picture.png" alt="profile picture" />
         <h1>Emilien Breton</h1>
       </div>
-      <p>Computer Science Student at the University of Ottawa</p>
-      <div className={styles.column}>
+      <p></p>
+      <div className={styles.rows}>
         <div className={styles.row}>
           <Link
             icon="fas fa-link"
@@ -27,28 +27,6 @@ const Main = () => {
           >
             Notes
           </Link>
-
-          <Link
-            icon="fab fa-linkedin"
-            href="https://www.linkedin.com/in/emilien-breton/"
-            color="#0077C2"
-          >
-            LinkedIn
-          </Link>
-          <Link
-            icon="fas fa-envelope"
-            href="mailto:bricktech2000@gmail.com"
-            color="linear-gradient(45deg, #BB001B, #EA4335)"
-          >
-            Mail
-          </Link>
-          <Link
-            icon="fab fa-telegram"
-            href="https://t.me/emilien_breton"
-            color="#0088CC"
-          >
-            Telegram
-          </Link>
         </div>
         <div className={styles.row}>
           <Link
@@ -60,11 +38,20 @@ const Main = () => {
             Github
           </Link>
           <Link
-            icon="fab fa-facebook-messenger"
-            href="https://www.messenger.com/t/100038113148924"
-            color="#0078FF"
+            icon="fab fa-linkedin"
+            href="https://www.linkedin.com/in/emilien-breton/"
+            color="#0077C2"
           >
-            Messenger
+            LinkedIn
+          </Link>
+        </div>
+        <div className={styles.row}>
+          <Link
+            icon="fas fa-envelope"
+            href="mailto:bricktech2000@gmail.com"
+            color="linear-gradient(45deg, #BB001B, #EA4335)"
+          >
+            Mail
           </Link>
           <Link
             icon="fab fa-discord"
@@ -73,14 +60,15 @@ const Main = () => {
           >
             Discord
           </Link>
-          {/* <Link
-            icon="fab fa-snapchat-ghost"
-            href="https://www.snapchat.com/add/emilien_breton?share_id=09KhRyzndOk"
-            color="#FFFC00"
-            invert
+        </div>
+        <div className={styles.row}>
+          <Link
+            icon="fab fa-facebook-messenger"
+            href="https://www.messenger.com/t/100038113148924"
+            color="#0078FF"
           >
-            Snapchat
-          </Link> */}
+            Messenger
+          </Link>
           <Link
             icon="fab fa-whatsapp"
             href="http://wasap.my/16139139909"
@@ -89,6 +77,8 @@ const Main = () => {
           >
             Whatsapp
           </Link>
+        </div>
+        <div className={styles.row}>
           <Link
             icon="fab fa-instagram"
             href="https://www.instagram.com/emilien.breton.71/"
@@ -96,7 +86,30 @@ const Main = () => {
           >
             Instagram
           </Link>
+          <Link
+            icon="fab fa-telegram"
+            href="https://t.me/emilien_breton"
+            color="#0088CC"
+          >
+            Telegram
+          </Link>
         </div>
+        {/* <Link
+          icon="fab fa-snapchat-ghost"
+          href="https://www.snapchat.com/add/emilien_breton?share_id=09KhRyzndOk"
+          color="#FFFC00"
+          invert
+        >
+          Snapchat
+        </Link> */}
+        {/* <Link
+          icon="fas fa-phone"
+          href="tel:+1-613-903-9909"
+          color="#25D366"
+          invert
+        >
+          Phone
+        </Link> */}
       </div>
       <a
         className={styles.qrLink}
