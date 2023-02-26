@@ -35,7 +35,7 @@ const Main = () => {
             color="#BBBBBB"
             invert
           >
-            Github
+            GitHub
           </Link>
           <Link
             icon="fab fa-linkedin"
