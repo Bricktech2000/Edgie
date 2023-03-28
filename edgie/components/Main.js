@@ -38,14 +38,21 @@ const Main = () => {
             GitHub
           </Link>
           <Link
+            icon="fas fa-file"
+            href="http://github.com/Bricktech2000/Resume/raw/master/export/resume.dark.pdf"
+            color="#222222"
+          >
+            Resume
+          </Link>
+        </div>
+        <div className={styles.row}>
+          <Link
             icon="fab fa-linkedin"
             href="https://www.linkedin.com/in/emilien-breton/"
             color="#0077C2"
           >
             LinkedIn
           </Link>
-        </div>
-        <div className={styles.row}>
           <Link
             icon="fas fa-envelope"
             href="mailto:bricktech2000@gmail.com"
@@ -53,6 +60,8 @@ const Main = () => {
           >
             Mail
           </Link>
+        </div>
+        <div className={styles.row}>
           <Link
             icon="fab fa-discord"
             href="https://discord.gg/372eVaqtv5"
@@ -60,22 +69,12 @@ const Main = () => {
           >
             Discord
           </Link>
-        </div>
-        <div className={styles.row}>
           <Link
             icon="fab fa-facebook-messenger"
             href="https://www.messenger.com/t/100038113148924"
             color="#0078FF"
           >
             Messenger
-          </Link>
-          <Link
-            icon="fab fa-whatsapp"
-            href="http://wasap.my/16139139909"
-            color="#25D366"
-            invert
-          >
-            Whatsapp
           </Link>
         </div>
         <div className={styles.row}>
@@ -109,6 +108,14 @@ const Main = () => {
           invert
         >
           Phone
+        </Link> */}
+        {/* <Link
+          icon="fab fa-whatsapp"
+          href="http://wasap.my/16139139909"
+          color="#25D366"
+          invert
+        >
+          Whatsapp
         </Link> */}
       </div>
       <a
