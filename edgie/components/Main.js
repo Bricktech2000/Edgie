@@ -23,7 +23,7 @@ const Main = () => {
           <Link
             icon="fas fa-book"
             href="https://notes.emilien.ca/"
-            color="#888"
+            color="#888888"
           >
             Notes
           </Link>
@@ -63,18 +63,19 @@ const Main = () => {
         </div>
         <div className={styles.row}>
           <Link
+            icon="fab fa-whatsapp"
+            href="http://wasap.my/16139139909"
+            color="#25D366"
+            invert
+          >
+            Whatsapp
+          </Link>
+          <Link
             icon="fab fa-discord"
             href="https://discord.gg/372eVaqtv5"
             color="#5865F2"
           >
             Discord
-          </Link>
-          <Link
-            icon="fab fa-facebook-messenger"
-            href="https://www.messenger.com/t/100038113148924"
-            color="#0078FF"
-          >
-            Messenger
           </Link>
         </div>
         <div className={styles.row}>
@@ -94,6 +95,13 @@ const Main = () => {
           </Link>
         </div>
         {/* <Link
+           icon="fab fa-facebook-messenger"
+           href="https://www.messenger.com/t/100038113148924"
+           color="#0078FF"
+         >
+           Messenger
+         </Link> */}
+        {/* <Link
           icon="fab fa-snapchat-ghost"
           href="https://www.snapchat.com/add/emilien_breton?share_id=09KhRyzndOk"
           color="#FFFC00"
@@ -108,14 +116,6 @@ const Main = () => {
           invert
         >
           Phone
-        </Link> */}
-        {/* <Link
-          icon="fab fa-whatsapp"
-          href="http://wasap.my/16139139909"
-          color="#25D366"
-          invert
-        >
-          Whatsapp
         </Link> */}
       </div>
       <a
