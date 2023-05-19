@@ -1,6 +1,6 @@
 # Edgie
 
-A simple webpage to share my social media links.
+_A simple webpage to share my social media links_
 
 ## Overview
 
