@@ -39,7 +39,7 @@ const Main = () => {
           </Link>
           <Link
             icon="fas fa-file"
-            href="http://github.com/Bricktech2000/Resume/raw/master/export/resume.dark.pdf"
+            href="https://github.com/Bricktech2000/Resume/raw/master/export/resume.light.pdf"
             color="#222222"
           >
             Resume
@@ -64,7 +64,7 @@ const Main = () => {
         <div className={styles.row}>
           <Link
             icon="fab fa-whatsapp"
-            href="http://wasap.my/16139139909"
+            href="https://wasap.my/16139139909"
             color="#25D366"
             invert
           >
