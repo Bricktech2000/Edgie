@@ -72,7 +72,7 @@ const Main = () => {
           </Link>
           <Link
             icon="fab fa-discord"
-            href="https://discord.gg/372eVaqtv5"
+            href="https://discord.com/users/362627068430909450"
             color="#5865F2"
           >
             Discord
