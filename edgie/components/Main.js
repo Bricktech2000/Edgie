@@ -22,7 +22,7 @@ const Main = () => {
           </Link>
           <Link
             icon="fas fa-book"
-            href="https://notes.emilien.ca/"
+            href="https://emilien.ca/notes.md"
             color="#888888"
           >
             Notes
